@@ -1,0 +1,10 @@
+Stephen Curry,GSW,PG,6-2,185
+LeBron James,LAL,SF,6-9,250
+Kevin Durant,PHX,SF,6-10,240
+Giannis Antetokounmpo,MIL,PF,6-11,242
+Luka Doncic,DAL,PG,6-7,230
+Nikola Jokic,DEN,C,6-11,284
+Joel Embiid,PHI,C,7-0,280
+Jayson Tatum,BOS,SF,6-8,210
+Devin Booker,PHX,SG,6-5,206
+Ja Morant,MEM,PG,6-2,174 
