@@ -11,13 +11,42 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+def print_instructions():
+    print(f"\n{bcolors.HEADER}=== NBA PLAYER GUESSING GAME ==={bcolors.ENDC}")
+    print("\nTry to guess the NBA player in 6 attempts!")
+    print("\nAfter each guess, you'll get feedback on five attributes:")
+    print("- Name")
+    print("- Team")
+    print("- Position")
+    print("- Height")
+    print("- Weight")
+    
+    print(f"\n{bcolors.BOLD}Color Coding:{bcolors.ENDC}")
+    print(f"{bcolors.OKGREEN}Green{bcolors.ENDC}: Exact match")
+    print(f"{bcolors.WARNING}Yellow{bcolors.ENDC}: Close match")
+    print("No color: Not a match")
+    
+    print(f"\n{bcolors.BOLD}Feedback Guide:{bcolors.ENDC}")
+    print("Position:")
+    print(f"- {bcolors.OKGREEN}Green{bcolors.ENDC}: Same position (e.g., both PG)")
+    print(f"- {bcolors.WARNING}Yellow{bcolors.ENDC}: Similar position (PG/SG or SF/PF)")
+    
+    print("\nHeight:")
+    print(f"- {bcolors.OKGREEN}Green{bcolors.ENDC}: Exact same height")
+    print(f"- {bcolors.WARNING}Yellow{bcolors.ENDC}: Within 2 inches")
+    
+    print("\nWeight:")
+    print(f"- {bcolors.OKGREEN}Green{bcolors.ENDC}: Exact same weight")
+    print(f"- {bcolors.WARNING}Yellow{bcolors.ENDC}: Within 15 pounds")
+    
+    print("\nPress Enter to start the game...")
+    input()
+
 maxTries = 6
 players = []
 
-print(bcolors.OKBLUE + 'NBA Player Guessing Game!' + bcolors.ENDC)
-print("Try to guess the NBA player. After each guess, you'll get hints:")
-print(f"{bcolors.OKGREEN}Green{bcolors.ENDC}: Exact match")
-print(f"{bcolors.WARNING}Yellow{bcolors.ENDC}: Close match (within range/similar category)")
+# Display instructions at start
+print_instructions()
 
 with open('players.txt') as f:
     for line in f:
@@ -31,8 +60,8 @@ with open('players.txt') as f:
         })
 
 target = players[randint(0, len(players)-1)]
-if __debug__:
-    print('debug:', target['name'])
+# if __debug__:
+#     print('debug:', target['name'])
 
 def compare_attributes(guess_attr, target_attr, attr_type):
     if guess_attr == target_attr:
@@ -43,7 +72,6 @@ def compare_attributes(guess_attr, target_attr, attr_type):
         if diff <= 15:
             return bcolors.WARNING + str(guess_attr) + bcolors.ENDC
     elif attr_type == 'height':
-        # Convert height to inches for comparison
         def height_to_inches(h):
             ft, inch = map(int, h.split('-'))
             return ft * 12 + inch
@@ -51,7 +79,6 @@ def compare_attributes(guess_attr, target_attr, attr_type):
         if diff <= 2:
             return bcolors.WARNING + str(guess_attr) + bcolors.ENDC
     elif attr_type == 'position':
-        # Group similar positions
         guards = ['PG', 'SG']
         forwards = ['SF', 'PF']
         if (guess_attr in guards and target_attr in guards) or \
@@ -65,7 +92,6 @@ while t < maxTries:
     guess_name = input("\nEnter player name: ")
     guess = None
     
-    # Find player in list
     for player in players:
         if player['name'].lower() == guess_name.lower():
             guess = player
@@ -75,7 +101,6 @@ while t < maxTries:
         print("Invalid player name. Try again.")
         continue
 
-    # Compare attributes
     print(f"Name: {'✓' if guess['name'] == target['name'] else '✗'}")
     print(f"Team: {compare_attributes(guess['team'], target['team'], 'team')}")
     print(f"Position: {compare_attributes(guess['position'], target['position'], 'position')}")

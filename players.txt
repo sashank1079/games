@@ -1,10 +1,211 @@
-Stephen Curry,GSW,PG,6-2,185
-LeBron James,LAL,SF,6-9,250
-Kevin Durant,PHX,SF,6-10,240
-Giannis Antetokounmpo,MIL,PF,6-11,242
-Luka Doncic,DAL,PG,6-7,230
-Nikola Jokic,DEN,C,6-11,284
-Joel Embiid,PHI,C,7-0,280
+// ATLANTA HAWKS
+Trae Young,ATL,PG,6-1,164
+Dejounte Murray,ATL,PG,6-4,180
+Bogdan Bogdanovic,ATL,SG,6-6,220
+Saddiq Bey,ATL,SF,6-7,215
+Kobe Bufkin,ATL,SG,6-4,195
+
+// BOSTON CELTICS
 Jayson Tatum,BOS,SF,6-8,210
+Jaylen Brown,BOS,SG,6-6,223
+Jrue Holiday,BOS,PG,6-4,205
+Kristaps Porzingis,BOS,C,7-3,240
+Derrick White,BOS,PG,6-4,190
+
+// BROOKLYN NETS
+Mikal Bridges,BKN,SF,6-6,209
+Ben Simmons,BKN,PG,6-10,240
+Cameron Johnson,BKN,SF,6-8,210
+Spencer Dinwiddie,BKN,PG,6-5,215
+Nic Claxton,BKN,C,6-11,215
+
+// CHARLOTTE HORNETS
+LaMelo Ball,CHA,PG,6-7,190
+Brandon Miller,CHA,SF,6-9,200
+Gordon Hayward,CHA,SF,6-7,225
+Mark Williams,CHA,C,7-0,240
+Terry Rozier,CHA,PG,6-1,190
+
+// CHICAGO BULLS
+Zach LaVine,CHI,SG,6-5,200
+DeMar DeRozan,CHI,SF,6-6,220
+Lonzo Ball,CHI,PG,6-6,197
+Nikola Vucevic,CHI,C,6-10,260
+Alex Caruso,CHI,PG,6-5,186
+
+// CLEVELAND CAVALIERS
+Donovan Mitchell,CLE,SG,6-1,215
+Darius Garland,CLE,PG,6-1,192
+Evan Mobley,CLE,PF,7-0,215
+Jarrett Allen,CLE,C,6-9,243
+Max Strus,CLE,SF,6-5,215
+
+// DALLAS MAVERICKS
+Luka Doncic,DAL,PG,6-7,230
+Kyrie Irving,DAL,PG,6-2,195
+Tim Hardaway Jr.,DAL,SG,6-5,205
+Grant Williams,DAL,PF,6-6,236
+Dereck Lively II,DAL,C,7-1,230
+
+// DENVER NUGGETS
+Nikola Jokic,DEN,C,6-11,284
+Jamal Murray,DEN,PG,6-4,215
+Michael Porter Jr.,DEN,SF,6-10,218
+Aaron Gordon,DEN,PF,6-8,235
+Kentavious Caldwell-Pope,DEN,SG,6-5,204
+
+// DETROIT PISTONS
+Cade Cunningham,DET,PG,6-6,220
+Jaden Ivey,DET,SG,6-4,195
+Ausar Thompson,DET,SF,6-7,205
+Jalen Duren,DET,C,6-10,250
+Bojan Bogdanovic,DET,SF,6-7,226
+
+// GOLDEN STATE WARRIORS
+Stephen Curry,GSW,PG,6-2,185
+Klay Thompson,GSW,SG,6-6,220
+Draymond Green,GSW,PF,6-6,230
+Andrew Wiggins,GSW,SF,6-7,197
+Chris Paul,GSW,PG,6-0,175
+
+// HOUSTON ROCKETS
+Fred VanVleet,HOU,PG,6-0,197
+Jalen Green,HOU,SG,6-4,186
+Jabari Smith Jr.,HOU,PF,6-11,220
+Alperen Sengun,HOU,C,6-11,243
+Dillon Brooks,HOU,SF,6-7,225
+
+// INDIANA PACERS
+Tyrese Haliburton,IND,PG,6-5,185
+Pascal Siakam,IND,PF,6-8,230
+Bennedict Mathurin,IND,SG,6-5,210
+Myles Turner,IND,C,6-11,250
+Bruce Brown,IND,SG,6-4,202
+
+// LOS ANGELES CLIPPERS
+Kawhi Leonard,LAC,SF,6-7,225
+Paul George,LAC,SF,6-8,220
+James Harden,LAC,PG,6-5,220
+Russell Westbrook,LAC,PG,6-3,200
+Ivica Zubac,LAC,C,7-0,240
+
+// LOS ANGELES LAKERS
+LeBron James,LAL,SF,6-9,250
+Anthony Davis,LAL,PF,6-10,253
+D'Angelo Russell,LAL,PG,6-4,193
+Austin Reaves,LAL,SG,6-5,197
+Rui Hachimura,LAL,PF,6-8,230
+
+// MEMPHIS GRIZZLIES
+Ja Morant,MEM,PG,6-2,174
+Desmond Bane,MEM,SG,6-5,215
+Marcus Smart,MEM,PG,6-3,220
+Jaren Jackson Jr.,MEM,PF,6-11,242
+Steven Adams,MEM,C,6-11,265
+
+// MIAMI HEAT
+Jimmy Butler,MIA,SF,6-7,230
+Bam Adebayo,MIA,C,6-9,255
+Tyler Herro,MIA,SG,6-5,195
+Kyle Lowry,MIA,PG,6-0,196
+Duncan Robinson,MIA,SF,6-7,215
+
+// MILWAUKEE BUCKS
+Giannis Antetokounmpo,MIL,PF,6-11,242
+Damian Lillard,MIL,PG,6-2,195
+Khris Middleton,MIL,SF,6-7,222
+Brook Lopez,MIL,C,7-0,282
+Malik Beasley,MIL,SG,6-4,187
+
+// MINNESOTA TIMBERWOLVES
+Anthony Edwards,MIN,SG,6-4,225
+Karl-Anthony Towns,MIN,C,7-0,248
+Rudy Gobert,MIN,C,7-1,258
+Mike Conley,MIN,PG,6-1,175
+Jaden McDaniels,MIN,PF,6-9,185
+
+// NEW ORLEANS PELICANS
+Zion Williamson,NOP,PF,6-6,284
+Brandon Ingram,NOP,SF,6-8,190
+CJ McCollum,NOP,SG,6-3,190
+Jonas Valanciunas,NOP,C,6-11,265
+Trey Murphy III,NOP,SF,6-8,206
+
+// NEW YORK KNICKS
+Jalen Brunson,NYK,PG,6-1,190
+RJ Barrett,NYK,SF,6-6,214
+Julius Randle,NYK,PF,6-8,250
+Mitchell Robinson,NYK,C,7-0,240
+Josh Hart,NYK,SG,6-4,215
+
+// OKLAHOMA CITY THUNDER
+Shai Gilgeous-Alexander,OKC,PG,6-6,180
+Chet Holmgren,OKC,PF,7-1,195
+Josh Giddey,OKC,SG,6-8,210
+Jalen Williams,OKC,SF,6-6,195
+Lu Dort,OKC,SG,6-3,215
+
+// ORLANDO MAGIC
+Paolo Banchero,ORL,PF,6-10,250
+Franz Wagner,ORL,SF,6-10,220
+Markelle Fultz,ORL,PG,6-3,209
+Wendell Carter Jr.,ORL,C,6-10,270
+Cole Anthony,ORL,PG,6-2,185
+
+// PHILADELPHIA 76ERS
+Joel Embiid,PHI,C,7-0,280
+Tyrese Maxey,PHI,PG,6-2,200
+Tobias Harris,PHI,PF,6-8,226
+De'Anthony Melton,PHI,SG,6-2,196
+Kelly Oubre Jr.,PHI,SF,6-7,203
+
+// PHOENIX SUNS
+Kevin Durant,PHX,SF,6-10,240
 Devin Booker,PHX,SG,6-5,206
-Ja Morant,MEM,PG,6-2,174 
+Bradley Beal,PHX,SG,6-4,207
+Jusuf Nurkic,PHX,C,6-11,290
+Grayson Allen,PHX,SG,6-4,198
+
+// PORTLAND TRAIL BLAZERS
+Scoot Henderson,POR,PG,6-2,195
+Anfernee Simons,POR,SG,6-3,181
+Shaedon Sharpe,POR,SG,6-6,200
+Jerami Grant,POR,PF,6-8,210
+Deandre Ayton,POR,C,7-0,250
+
+// SACRAMENTO KINGS
+De'Aaron Fox,SAC,PG,6-3,185
+Domantas Sabonis,SAC,C,6-11,240
+Malik Monk,SAC,SG,6-3,200
+Kevin Huerter,SAC,SG,6-7,190
+Harrison Barnes,SAC,SF,6-8,225
+
+// SAN ANTONIO SPURS
+Victor Wembanyama,SAS,PF,7-4,210
+Keldon Johnson,SAS,SF,6-5,220
+Devin Vassell,SAS,SG,6-5,200
+Jeremy Sochan,SAS,PF,6-8,230
+Zach Collins,SAS,C,6-11,250
+
+// TORONTO RAPTORS
+Scottie Barnes,TOR,SF,6-7,225
+Pascal Siakam,TOR,PF,6-8,230
+OG Anunoby,TOR,SF,6-7,232
+Dennis Schroder,TOR,PG,6-1,172
+Jakob Poeltl,TOR,C,7-1,245
+
+// UTAH JAZZ
+Lauri Markkanen,UTA,PF,7-0,240
+Jordan Clarkson,UTA,SG,6-4,194
+Collin Sexton,UTA,PG,6-1,190
+John Collins,UTA,PF,6-9,226
+Walker Kessler,UTA,C,7-1,245
+
+// WASHINGTON WIZARDS
+Jordan Poole,WAS,SG,6-4,194
+Kyle Kuzma,WAS,PF,6-9,221
+Tyus Jones,WAS,PG,6-0,196
+Deni Avdija,WAS,SF,6-9,210
+Daniel Gafford,WAS,C,6-10,234
+
+ 
